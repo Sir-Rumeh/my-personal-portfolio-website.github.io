@@ -649,6 +649,12 @@ section {
 	background: #fff;
 	border: 2px solid rgba(152, 119, 80, 1);
 }
+.resume .container em {
+	font-weight: 600;
+}
+.resume .container em .certification {
+	cursor: pointer;
+}
 /*------------------------------------------------------------------*/
 /*	07) CV Button
 /*------------------------------------------------------------------*/
