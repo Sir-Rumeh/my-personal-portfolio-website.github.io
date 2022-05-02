@@ -1129,10 +1129,13 @@
 						<div
 							class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch"
 						>
-							<form
-								action="forms/contact.php"
-								method="post"
+							<!-- 
 								role="form"
+								class="php-email-form" -->
+							<!-- onSubmit="sendEmail(); reset();" -->
+							<form
+								action="https://formcarry.com/s/-QvpqQhONcK"
+								method="POST"
 								class="php-email-form"
 							>
 								<div class="row">
@@ -1189,7 +1192,10 @@
 									</div>
 								</div>
 								<div class="text-center">
-									<button type="submit">
+									<button
+										type="submit"
+										name="submit"
+									>
 										Send Message
 									</button>
 								</div>
@@ -1217,9 +1223,30 @@
 		<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 		<script src="assets/vendor/typed.js/typed.min.js"></script>
 		<script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-		<script src="assets/vendor/php-email-form/validate.js"></script>
 
 		<!-- Template Main JS File -->
 		<script src="assets/js/main.js"></script>
+
+		<!-- For Contact Form -->
+		<!-- <script src="https://smtpjs.com/v3/smtp.js"></script>
+		<script>
+			function sendEmail() {
+				Email.send({
+					Host: "smtp.gmail.com",
+					Username: "nosarumenimuentinyan@gmail.com",
+					Password: "Mgajmjap1..",
+					To: "nosarumenimuentinyan@gmail.com",
+					From: document.getElementById("email").value,
+					Subject: document.getElementById("subject").value,
+					Body:
+						"Name: " +
+						document.getElementById("name").value +
+						"<br> Email: " +
+						document.getElementById("email").value +
+						"<br> Message: " +
+						document.getElementById("message").value,
+				}).then((message) => alert("message sent successfully"));
+			}
+		</script> -->
 	</body>
 </html>
