@@ -11,4 +11,6 @@
 
 INSTRUCTIONS TO NAVIGATE
 
-Created by #Sir-Rumeh
+The fixed navigation menu to the left of the webpage smoothly scrolls down to the corresponding relevant section clicked on
+
+#Created by Sir-Rumeh
