@@ -302,6 +302,7 @@
 	/**
 	 * Animation on scroll
 	 */
+
 	window.addEventListener("load", () => {
 		AOS.init({
 			duration: 400,
@@ -312,4 +313,4 @@
 	});
 })();
 
-console.log("testing");
+// console.log("testing");
